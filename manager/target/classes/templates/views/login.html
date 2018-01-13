@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>管理员登录</title>
+    <link rel="stylesheet" type="text/css" href="static/js/jquery-easyui-1.4.1/themes/default/easyui.css" />
+    <!--<link rel="stylesheet" type="text/css" href="js/jquery-easyui-1.4.1/themes/default/easyui.css" />-->
+    <link rel="stylesheet" type="text/css" href="static/js/jquery-easyui-1.4.1/themes/icon.css" />
+    <!--<link th:href="@{/static/css/taotao.css}" rel="stylesheet"></link>-->
+
+</head>
+<body style="background-color: #F3F3F3">
+<div class="easyui-dialog" title="管理员登录" data-options="closable:false,draggable:false"
+     style="width:400px;height:300px;padding:10px;">
+    <div style="margin-left: 50px;margin-top: 50px;">
+        <div style="margin-bottom:20px;">
+            <div>
+                用户名: <input name="username" class="easyui-textbox" data-options="required:true"
+                            style="width:200px;height:32px" value="admin"/>
+            </div>
+        </div>
+        <div style="margin-bottom:20px">
+            <div>
+                密&nbsp;&nbsp;码: <input name="password" class="easyui-textbox" type="password"
+                                       style="width:200px;height:32px" data-options="" value="admin"/>
+            </div>
+        </div>
+        <div>
+            <a id="login" class="easyui-linkbutton icon-ok" iconCls="icon-ok" style="width:100px;height:32px;margin-left: 50px">登录</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/util.js"></script>
+<script>
+    $(function(){
+        
+    })
+</script>
